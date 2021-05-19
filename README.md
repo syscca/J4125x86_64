@@ -8,6 +8,8 @@ opkg update
 
 opkg remove dnsmasq && opkg install dnsmasq-full
 
+opkg install luci-i18n-base-zh-cn luci-i18n-firewall-zh-cn openssh-sftp-server
+
 opkg install dns2socks_2.1-1_x86_64.ipk pdnsd-alt_1.2.9b-par-a8e46ccba7b0fa2230d6c42ab6dcd92926f6c21d_x86_64.ipk trojan_1.16.0-1_x86_64.ipk \
 ipt2socks_1.1.3-2_x86_64.ipk redsocks2_0.67-4_x86_64.ipk uci_2019-05-17-f199b961-2_x86_64.ipk \
 kcptun-client_20210103-1_x86_64.ipk shadowsocks-rust-sslocal_1.10.9-1_x86_64.ipk v2ray-core_4.39.1-1_x86_64.ipk \
